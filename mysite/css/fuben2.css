@@ -1,0 +1,133 @@
+/*重置浏览器的默认样式*/
+body,ul,li,p,h1,h2,img{
+	margin:0; padding:0; border:0; list-style:none;
+}
+/*全局控制*/
+body{font-family:'微软雅黑'}
+a:link,a:visited{text-decoration:none;}
+/* 顶部 */
+.top{
+	width: 100%;
+	height: 170px;
+	overflow: hidden;
+	background: url(../img/black.jpg);
+}
+.logo{
+	width: 130px;
+	height: 130px;
+	margin: 15px;
+	margin-left: 120px;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.denglu li{
+	display:inline-block;
+}
+.denglu{
+	margin-top: 2px;
+	margin-right: 20px;
+	float:right;
+}
+.denglu li{
+	margin: 5px;
+	list-style:none;
+}
+.denglu a {
+	color: #710000;
+} 
+.denglu a:hover{
+	color: #940000;
+}
+.sousuo,.sousuo1,.sousuo2{
+	display:inline-block;
+}
+.sousuo{
+	width:500px;
+	height:100px;
+	margin-top: 70px;
+	margin-left: 300px;
+}
+.sousuo1 input{
+	width: 400px;
+	height: 30px;
+	border: 2px solid #940000;
+}
+.sousuo2{
+	position: absolute;
+	width:32px;
+	height:32px;
+	background:url(../img/sousuo.png);
+	border: 2px solid #940000;
+}
+.sousuo2-pic{
+	width: 32px;
+	height: 32px;
+}
+/* 中部 */
+.center{
+	width: 70%;
+	height: 4200px;
+	margin: 0 auto;
+}
+.fenlei{
+	width: 80%;
+	height: 20px;
+	margin: 0 auto;
+}
+.fenlei-span{
+	width: 25%;
+	float: left;
+	text-align: center;
+	background-color: #868686;
+}
+.fenlei-span span:hover{
+	color: #FAEBD7;
+}
+.renwu{
+	width: 100%;
+	border: 2px solid #FFF25C;
+	background-color: #940000;
+	overflow: hidden;
+}
+.renwu-pic{
+	width: 30%;
+	float: left;
+}
+.renwu-span{
+	width: 70%;
+	float: right;
+	font-size: 15px;
+	background-color: #940000;
+}
+.renwu-pic img{
+	width: 100%;
+}
+.renwu-down{
+	overflow: hidden;
+}
+.renwu-down1{
+	float: right;
+}
+.renwu-down1 span:hover{
+	color: #A9A9A9;
+}
+/* 底部 */
+.down{
+	width: 100%;
+	height: 350px;
+	background-color: #323232;
+}
+.down ul li{
+	text-align: center;
+}
+.down-span1{
+	color: #A9A9A9;
+}
+.down-span{
+	color: #A9A9A9;
+}
+.down-a span:hover{
+	color: #868686;
+}

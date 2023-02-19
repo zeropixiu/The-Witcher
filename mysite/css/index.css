@@ -1,0 +1,265 @@
+/*重置浏览器的默认样式*/
+body,ul,li,p,h1,h2,img{
+	margin:0; padding:0; border:0; list-style:none;
+}
+/*全局控制*/
+body{font-family:'微软雅黑'}
+a:link,a:visited{text-decoration:none;}
+/* 顶端 */
+.top{
+	width:100%;
+	height:170px;
+	background:url(../img/black.jpg);
+	background-size: cover;
+	overflow:hidden;
+}
+.logo{
+	width:200px;
+	height:100px;
+	margin:15px;
+	margin-left:70px;
+	background:url(../img/logo1.jpg);
+	background-size: 200px 100px;
+	float:left;
+}
+.denglu li{
+	display:inline-block;
+}
+.denglu{
+	margin-top: 2px;
+	margin-right: 20px;
+	float:right;
+}
+.denglu li{
+	margin: 5px;
+	list-style:none;
+}
+.denglu a {
+	color: #710000;
+} 
+.denglu a:hover{
+	color: #940000;
+}
+.sousuo,.sousuo1,.sousuo2{
+	display:inline-block;
+}
+.sousuo{
+	width:500px;
+	height:100px;
+	margin-top: 70px;
+	margin-left: 300px;
+}
+.sousuo1 input{
+	width: 400px;
+	height: 30px;
+	border: 2px solid #940000;
+}
+.sousuo2{
+	position: absolute;
+	width:32px;
+	height:32px;
+	background:url(../img/sousuo.png);
+	border: 2px solid #940000;
+}
+.sousuo2-pic{
+	width: 32px;
+	height: 32px;
+}
+/* 中端 */
+.center{
+	width:80%;
+	height:1950px;
+	margin:0 auto;
+	background-color: #710000;
+}
+/* 顶部 */
+.dingbu{
+	width: 100%;
+	height: 480px;
+	overflow: hidden;
+}
+.zixun,.shipin{
+	float: left;
+}
+.luntan{
+	float: right;
+}
+/* 开始修改 */
+/* 热门视频-图片轮播 */
+.shipin{
+	width: 60%;
+	height: 400px;
+}
+.shipin1 li{
+	list-style: none;
+}
+.shipin1{
+	width: 100%;
+	height: 420px;
+	margin: 30px auto;
+	position:relative;
+}
+.shipin-pic{
+	width:100%;
+}
+.img li{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.num{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	bottom: 20px;
+}
+.num li{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-color: darkgray;
+	color: white;
+	text-align: center;
+	line-height: 20px;
+	border-radius: 50%;
+	margin: 0 15px;
+}
+.shipin1:hover .btn{
+	display: inline-block;
+	cursor: pointer;
+}
+.current{
+	background-color: darkred!important;
+}
+/* 热点资讯 */
+.zixun{
+	width: 22%;
+	height: 400px;
+	margin-top: 30px;
+}
+.zixun1,.zixun2{
+	width: 100%;
+}
+.zixun1{
+	height: 40px;
+	background-color: #A9A9A9;
+}
+.zixun1-1{
+	padding: 8px;
+}
+.zixun1-1 span{
+	font-size: 15px;
+	color: #940000;
+}
+.zixun2{
+	height: 370px;
+	background-color: antiquewhite;
+}
+.zixun2 li{
+	padding: 5px;
+}
+.zixun2 a:hover{
+	color: #A9A9A9;
+}
+/* 玩家论坛 */
+.luntan{
+	width: 18%;
+	height: 410px;
+	margin-top: 30px;
+}
+.luntan1,.luntan2{
+	width: 100%;
+}
+.luntan1{
+	height: 40px;
+	background-color: #A9A9A9;
+}
+.luntan1-1{
+	padding: 8px;
+}
+.luntan1-1 span{
+	font-size: 15px;
+	color: #940000;
+}
+.luntan2{
+	height: 370px;
+	background-color: antiquewhite;
+}
+.luntan2 li{
+	padding: 5px;
+}
+.luntan2 a:hover{
+	color: #A9A9A9;
+}
+/* 分类和介绍 */
+.fenlei-jieshao{
+	width: 100%;
+	height: 680px;
+	background: url(../img/xueshan.jpg);
+	background-size: 100% ;
+}
+/* 分类 */
+.fenlei{
+	width: 40%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.fenlei1{
+	width: 20%;
+	height: 20px;
+	text-align: center;
+	float: left;
+	margin: 10px;
+}
+.fenlei1 span:hover{
+	color: #FAFAA7;
+}
+/* 介绍 */
+.jieshao{
+	width: 60%;
+	margin: 0 auto;
+}
+.jieshao1,.jieshao2,.jieshao3,.jieshao4{
+	overflow: hidden;
+	background-color: #940000;
+	border:1px solid #ffff7f;
+}
+.jieshao1-1,.jieshao2-1,.jieshao3-1,.jieshao4-1{
+	width: 20%;
+}
+.jieshao1-2,.jieshao2-2,.jieshao3-2,.jieshao4-2{
+	width: 80%;
+
+}
+.jieshao1-1,.jieshao1-2,.jieshao2-1,.jieshao2-2,.jieshao3-1,.jieshao3-2,.jieshao4-1,.jieshao4-2{
+	float: left;
+}
+.jieshao1-2span a:hover{
+	color: #FAFAA7;
+}
+.bg{
+	width: 100%;
+}
+/* 中端-底部 */
+.dibu{
+	width: 100%;
+	margin-top: 50px;
+}
+/* 帮助中心*/
+.down{
+	width: 100%;
+	height: 350px;
+	background-color: #323232;
+}
+.down ul li{
+	text-align: center;
+}
+.down-span1{
+	color: #A9A9A9;
+}
+.down-span{
+	color: #A9A9A9;
+}
+.down-a span:hover{
+	color: #868686;
+}
